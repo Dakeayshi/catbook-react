@@ -5,6 +5,11 @@
   --primary: #396dff;
   --grey: #f7f7f7;
   --white: #fff;
+
+  --xs: 4px;
+  --s: 8px;
+  --m: 16px;
+  --l: 24px;
 }
 
 .navTitle {
@@ -15,10 +20,13 @@
 }
 
 .navContainer {
+  padding: var(--s) var(--m);
   background-color: var(--primary);
 }
 
+html,
 body {
+  margin: 0;
   font-family:'Open Sans', sans-serif;
 }
 
