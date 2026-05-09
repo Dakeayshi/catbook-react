@@ -34,6 +34,19 @@ body {
   text-align: center;
 }
 
+.avatarContainer {
+  padding: 0 35%;
+}
+
 .avatar {
-  border-radius: var(--m);
+  /* make it responsive */
+  max-width: 100%;
+  width: 100%;
+
+  /* make it a circle */
+  border-radius: 50%;
+
+  /* make it have a 1:1 aspect ratio */
+  aspect-ratio: 1;
+  object-fit: cover;
 }
