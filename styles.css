@@ -33,3 +33,7 @@ body {
 .u-textCenter {
   text-align: center;
 }
+
+.avatar {
+  border-radius: var(--m);
+}
