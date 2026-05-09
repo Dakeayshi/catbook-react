@@ -1,5 +1,5 @@
 /* Your Code Here! */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,600");
 
 :root {
   --primary: #396dff;
@@ -50,3 +50,8 @@ body {
   aspect-ratio: 1;
   object-fit: cover;
 }
+
+.u-flex{
+  display: flex;
+}
+
